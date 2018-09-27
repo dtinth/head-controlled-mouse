@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.16.3",
+    "robotjs": "^0.5.1",
+    "socket.io": "^2.1.1"
+  }
+}

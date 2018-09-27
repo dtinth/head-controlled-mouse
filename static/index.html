@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>I am using my head (or neck) as a mouse cursor</title>
+  <style>
+    body {
+      font-size: 30px;
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <pre id="status"></pre>
+  <button onclick="document.body.webkitRequestFullscreen(); screen.keepAwake = true">Keep awake</button>
+  <button onclick="calibrate()">Calibrate</button>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
